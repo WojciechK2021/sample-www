@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    position:relative;
+    text-align: center;
+    height: 100px;
+    background-color: lightgrey;
+    color: white;
+
+}
+
+ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+    width: 100%;
+}
+
+.nav li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav li:hover  {
+  color: green;
+  cursor: pointer;
+}
+
+.nav li  {
+  display: inline-block;
+}
+
+section {
+   position: relative;
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: lightgrey;
+    text-align: center;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main img {
+ max-width: 100%;
+ height: auto;
+}
+
+#kontakt {
+  background-color: lightgrey;
+  width: 100%;
+  height: 25vh;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#home div {
+  position: relative
+}
+
+.office {
+  position: absolute;
+  top: 5px;
+  color: white;
+  font-size: 18px;
+
+}
+
+#experience p {
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+div p {
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+#gallery {
+   display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    text-align: center;
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  #gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+    bottom: 0px;
+    text-align: center;
+}
+
+footer p {
+    line-height: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
